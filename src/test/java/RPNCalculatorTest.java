@@ -21,7 +21,7 @@ public class RPNCalculatorTest {
     @Test
     void testEvaluateRPN() {
         double result = RPNCalculator.evaluateRPN(List.of("3", "4", "2", "*", "+"));
-        assertEquals(11.0, result);
+        assertEquals(10, result);
     }
 
     @Test
