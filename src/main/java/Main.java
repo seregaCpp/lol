@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter expression:");
-        String expression = scanner.nextLine();
+        String expression = "3+2";
 
         try {
             List<String> rpn = RPNCalculator.toRPN(expression);
