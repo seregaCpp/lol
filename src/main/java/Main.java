@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String expression = "3+2";
+        String expression = "3+(2+5*4)";
 
         try {
             List<String> rpn = RPNCalculator.toRPN(expression);
